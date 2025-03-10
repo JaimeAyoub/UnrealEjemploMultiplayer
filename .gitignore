@@ -1,0 +1,33 @@
+# Ignore Visual Studio files
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.vcproj
+*.vcproj.user
+
+# Ignore directories
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore specific file types
+*.log
+*.tmp
+*.vs
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Ignore Mac OS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Git LFS configuration for large files
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
